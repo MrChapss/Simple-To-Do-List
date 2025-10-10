@@ -1,1 +1,7 @@
-/TDL.class
+# Eclipse-specific
+.classpath
+.project
+.settings/
+bin/
+*.class
+
