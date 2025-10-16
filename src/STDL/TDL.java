@@ -60,8 +60,6 @@ public class TDL {
 						if ((uRTD) == 0) break;
 						// to remove the to-do based on their index position
 						userTDAL.remove(uRTD-1);
-						
-						PTDL(userTDAL);
 					}
 					// SAVED ONLY WHEN LOOPING "Yes" (RESET IF QUITTING "No"/FRESH START)
 					System.out.printf("%nTo-do list saved!%n");
